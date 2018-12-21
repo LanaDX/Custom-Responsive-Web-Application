@@ -11,7 +11,7 @@
     }
 
     function onMapControlInit(s, e) {
-        AddAdjustmentDelegate(adjustMapContainer); // the adjustment delegete is invoked each time when the map control container is resied (browser window is resized, left-side menu is expanded/collapsed, etc)
+        AddAdjustmentDelegate(adjustMapContainer); // the adjustment delegate is invoked each time when the map control container is resized (browser window is resized, left-side menu is expanded/collapsed, etc.)
     }
 
     window.onMapControlInit = onMapControlInit;
